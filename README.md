@@ -1,12 +1,28 @@
-# React + Vite
+# Hirehub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Hirehub** is a modern job portal designed to connect job seekers with potential employers. It enables job seekers to apply for jobs, while employers can easily post job listings and find the right talent through a streamlined hiring process.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+### For Job Seekers
+- Create a simple profile
+- Browse and search for job listings
+- Apply directly to jobs
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### For Employers
+- Register and manage an employer profile
+- Post new job openings with detailed descriptions
+- View and manage applications
+- Send interview invitations or hire directly
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Node.js, Express
+- **Database:** Supabase
+- **Authentication:** Clerk JWT
+- **Hosting:** Vercel
